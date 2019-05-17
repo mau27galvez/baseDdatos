@@ -46,6 +46,7 @@ var boolean;
 
 form.addEventListener("submit", ()=>
 {
+    boolean=false;
     valor = input.value.trim();
     input.value="";
     if (valor.length > 0 && valor != null) 
